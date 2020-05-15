@@ -1,3 +1,0 @@
-# website-project
-website
-termibé
