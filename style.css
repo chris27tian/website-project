@@ -1,8 +1,27 @@
-body {
-    background-color:#ccf;
-    letter-spacing:.1em;
+  p{
+
+    font-family: 'Times New Roman', Times, arial;
   }
-  p {
-    font-style:italic;
-    font-family:times,serif;
+  .para1{
+font-size: 30px;
+font-style: inherit;
+line-height: 45px;
   }
+
+
+  .para2{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .blanc{
+    color: white;
+    background: black;
+  }
+  .argent{
+    color : silver
+  }
+
+  .vert{
+    color: green;
+  }
+
