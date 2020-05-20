@@ -1,17 +1,26 @@
   p{
 
     font-family: 'Times New Roman', Times, arial;
+  text-decoration: none;
+  text-indent: 10px;
+  
   }
   .para1{
 font-size: 30px;
 font-style: inherit;
 line-height: 45px;
+text-align: justify;
+text-decoration: inherit;
+text-decoration: overline;
+text-indent: 2em;
   }
 
 
   .para2{
     font-size: 2em;
     font-weight: bold;
+    text-align: center;
+    text-decoration: none;
   }
   .blanc{
     color: white;
@@ -23,5 +32,6 @@ line-height: 45px;
 
   .vert{
     color: green;
+    opacity: 0.8;
   }
 
