@@ -27,19 +27,29 @@ word-spacing: 5px;
 
   }
   .para3{
-    text-shadow: 3px 2px 3px blue; }
+    text-shadow: 3px 2px 3px blue; 
+    
+  }
+    
 
   .blanc{
     color: white;
     background: black;
+    border-left-width: 4px;
   }
   .argent{
-    color : silver
+    color : silver;
+    
+    border-left-style: 5px;
+    border-left-width: 4px;
+    border-left-color: darkblue;
   }
 
   .vert{
     color: green;
     opacity: 0.8;
+    border-style: solid;
+    border-top-left-radius: 5px;
   }
 
   h2
@@ -49,4 +59,5 @@ word-spacing: 5px;
     border-width:2px;
     border-style: solid;
     border-color: chocolate;
+    border-radius: 15px;
   }
