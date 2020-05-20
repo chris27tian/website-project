@@ -42,3 +42,11 @@ word-spacing: 5px;
     opacity: 0.8;
   }
 
+  h2
+  {
+    height: 100px;
+    width: 500px;
+    border-width:2px;
+    border-style: solid;
+    border-color: chocolate;
+  }
