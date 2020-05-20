@@ -1,4 +1,11 @@
 body{
-  background-color:rgba(055,066,77,0.9);
+  /*background-color:rgba(055,066,77,0.9);
   background-image: url(lane.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
+
+--------------------*/
+background: url("vase.jpg") fixed no-repeat top left, url("anusv2.jpg") fixed no-repeat top right,
+url("lane.jpg") fixed no-repeat bottom left;
