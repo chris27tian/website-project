@@ -3,6 +3,8 @@
     font-family: 'Times New Roman', Times, arial;
   text-decoration: none;
   text-indent: 10px;
+  text-transform: capitalize;
+  letter-spacing: 5px;
   
   }
   .para1{
@@ -13,6 +15,7 @@ text-align: justify;
 text-decoration: inherit;
 text-decoration: overline;
 text-indent: 2em;
+word-spacing: 5px;
   }
 
 
@@ -21,7 +24,11 @@ text-indent: 2em;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+
   }
+  .para3{
+    text-shadow: 3px 2px 3px blue; }
+
   .blanc{
     color: white;
     background: black;
