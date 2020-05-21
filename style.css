@@ -4,8 +4,17 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-}
 
---------------------*/
-background: url("vase.jpg") fixed no-repeat top left, url("anusv2.jpg") fixed no-repeat top right,
+
+
+background: url("vase.jpg") fixed no-repeat top left, 
+url("anusv2.jpg") fixed no-repeat top right,
 url("lane.jpg") fixed no-repeat bottom left;
+
+
+
+background: -moz-linear-gradient(52deg, blue,green,blue);
+--------------------*/
+
+background: radial-gradient(blue,red);
+}
