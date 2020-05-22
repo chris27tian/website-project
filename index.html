@@ -10,16 +10,21 @@
 <body>
 <form method="POST" action="traitement.php">
     <p>
+        <fieldset>
+<legend>Info de connection</legend>
+        
 <label for="pseudo">
     remplissez votre pseudo
 </label>   
-    <input type="text" name="pseudo" id="pseudo"/>
+    <input type="text" name="pseudo" id="pseudo" placeholder="jean"/>
 
 <br/>
     <label for="pass">
     tapez votre mot de passe
 </label>
-<input type="password" name="pass" id="pass">
+<input type="password" name="pass" id="pass" placeholder="mot de passe">
+
+</fieldset>
 <br/><br/>
 <!--
 <label for="email">remplissez votre email</label>
@@ -41,6 +46,8 @@
 <br>
 <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea>
 -->
+<fieldset>
+    <legend>info pratiques</legend>
 
 Quels sont vos sports favoris?<br>
 <input type="checkbox" name="course" id="course">
@@ -56,6 +63,22 @@ Quels viennoiseries preferez vous? <br>
 <input type="radio" name="viennoiseries" value="chocolat" id="chocolat" checked>
 <label for="chocolat"> les pains au chocolat</label>
 
+</fieldset>
+<br><br>
+choississez votrez pays :
+<select name="pays" id="pays">
+    <optgroup label="Europe">
+   
+    <option value="france">France</option>
+    <option value="italie">Italie</option>
+</optgroup>
+<optgroup label="Asie">
+    <option value="chine">Chine</option>
+</optgroup>
+</select>
+<br><br><br>
+
+<input type="submit" value="Envoyer">
 </p>
 </form>
 
