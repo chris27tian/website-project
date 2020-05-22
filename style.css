@@ -1,7 +1,4 @@
-td,th{
-  border: 1px solid black;
-}
+textarea{
+  width: 200px;
 
-table{
-  border-collapse: collapse;
 }
